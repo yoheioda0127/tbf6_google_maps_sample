@@ -4,6 +4,7 @@
   </div>
 </template>
 
+
 <script>
   import axios from "axios";
 
@@ -18,6 +19,7 @@
   }
 </script>
 
+　
 <style> 
   html,body {
     margin: 0;
