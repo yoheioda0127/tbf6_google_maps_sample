@@ -33,6 +33,7 @@
   }, 
   methods: { 
     initMap() { 
+      const mapElement = document.getElementById("map"); 
       this.google = google; 
       this.map = new google.maps.Map(mapElement, { 
         center: this.initialPlace, 
